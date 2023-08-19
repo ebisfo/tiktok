@@ -1,0 +1,124 @@
+import pyautogui
+import time
+
+def click():
+    pyautogui.moveTo(488,181)
+    pyautogui.mouseDown(488,181)
+    pyautogui.mouseUp(488,181)
+
+    pyautogui.moveTo(488,244)
+    pyautogui.mouseDown(488,244)
+    pyautogui.mouseUp(488,244)
+    time.sleep(70)
+    print("First Set")
+
+
+    pyautogui.moveTo(488,308)
+    pyautogui.mouseDown(488,308)
+    pyautogui.mouseUp(488,308)
+
+    pyautogui.moveTo(488,375)
+    pyautogui.mouseDown(488,375)
+    pyautogui.mouseUp(488,375)
+    time.sleep(70)
+    print("Second Set")
+
+
+    pyautogui.moveTo(488,442)
+    pyautogui.mouseDown(488,442)
+    pyautogui.mouseUp(488,442)
+
+    pyautogui.moveTo(488,503)
+    pyautogui.mouseDown(488,503)
+    pyautogui.mouseUp(488,503)
+    time.sleep(70)
+    print("Third Set")
+
+
+    pyautogui.moveTo(488,566)
+    pyautogui.mouseDown(488,566)
+    pyautogui.mouseUp(488,566)
+
+    pyautogui.moveTo(488,632)
+    pyautogui.mouseDown(488,632)
+    pyautogui.mouseUp(488,632)
+    time.sleep(70)
+    print("Fourth Set")
+
+
+    pyautogui.moveTo(488,696)
+    pyautogui.mouseDown(488,696)
+    pyautogui.mouseUp(488,696)
+
+    pyautogui.moveTo(488,760)
+    pyautogui.mouseDown(488,760)
+    pyautogui.mouseUp(488,760)
+    time.sleep(70)
+    print("Fifth Set")
+
+
+    pyautogui.moveTo(488,825)
+    pyautogui.mouseDown(488,825)
+    pyautogui.mouseUp(488,825)
+
+    pyautogui.moveTo(488,886)
+    pyautogui.mouseDown(488,886)
+    pyautogui.mouseUp(488,886)
+    time.sleep(70)
+    print("Sixth Set")
+
+
+    pyautogui.moveTo(488,953)
+    time.sleep(75)
+    print("Sevent Set")
+
+def scrolling():
+    pyautogui.moveTo(390, 960)
+    print("Initializing")
+    pyautogui.dragTo(390, 177, 10)
+    time.sleep(10)
+    #click()
+    time.sleep(2)
+    print("Initializing")
+    pyautogui.moveTo(390, 960)
+    pyautogui.dragTo(390, 177, 10)
+    time.sleep(10)
+    #click()
+    time.sleep(1)
+    print("Initializing")
+    pyautogui.moveTo(390, 960)
+    pyautogui.dragTo(390, 177, 10)
+    time.sleep(10)
+    #click()
+def singleClick():
+    pyautogui.moveTo(488, 181)
+    pyautogui.mouseDown(488, 181)
+    pyautogui.mouseUp(488, 181)
+
+
+
+count = 0
+while count<=198:
+    pyautogui.moveTo(412, 246) #instead coordinates can be called to image
+    pyautogui.dragTo(390, 174, 10)
+    singleClick()
+    time.sleep(10)
+    pyautogui.moveTo(412, 246)
+    pyautogui.dragTo(390, 174, 10)
+    singleClick()
+    time.sleep(10)
+    print(count)
+    count+=1
+
+
+
+
+
+#click()
+
+#count = 0
+#while count <=10:
+ #   pyautogui.scroll(-1)
+  #  time.sleep(5)
+   # count+=1
+    #print(count)
